@@ -1,0 +1,91 @@
+body {
+  background-color: #17202a;
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 2rem;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 50px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.MainSection {
+  margin-top: 30px;
+  width: 300px;
+  background-color: #1c2833;
+  border-radius: 10px;
+  padding: 1rem;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);
+  transition: transform 0.3s ease;
+}
+
+.MainSection:hover {
+ 
+  transform: translateY(-10PX);
+}
+
+.DeleteButton {
+  background-color: rgb(255, 27, 27); 
+  color: white; 
+  font-size: 14px; 
+}
+
+button {
+  padding: 0.6rem 1.5rem;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  border: 0;
+  background-color: hsl(160, 80%, 48%);
+  box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-size: 14px;
+  transition: all 0.3s ease;
+  margin: 0.5rem 0.5rem 0 0;
+  color: white;
+}
+
+button:hover {
+  background-color: hsl(160, 90%, 38%);
+  box-shadow: rgb(9, 172, 115) 0px 7px 19px 0px;
+}
+.DeleteButton:hover{
+  background-color: red;
+  box-shadow: rgb(247, 119, 102) 0px 7px 19px 0px;
+  
+}
+.section-form{
+  padding: 1.6rem;
+  background-color: #212f3d;
+  border-radius:0.6rem;
+  -webkit-border-radius:0.6rem;
+  -moz-border-radius:0.6rem;
+  -ms-border-radius:0.6rem;
+  -o-border-radius:0.6rem;
+  margin:3.2rem auto;
+}
+form{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 1.2rem;
+}
+& input{
+  width: 24rem;
+  color:#212f3d;
+  border:0.1rem solid grey;
+  outline:none;
+  border-radius:0.2rem;
+  -webkit-border-radius:0.2rem;
+  -moz-border-radius:0.2rem;
+  -ms-border-radius:0.2rem;
+  -o-border-radius:0.2rem;
+  padding:0.8rem 1.2rem;
+}
